@@ -1,4 +1,4 @@
-def rockSorting(A):
+def chanceSorting(A):
     for i in range(len(A) - 1):
         min = i
         for j in range(i + 1, len(A)):
@@ -10,4 +10,4 @@ def rockSorting(A):
 
 
 A = list(map(int, input().split()))
-print(rockSorting(A))
+print(chanceSorting(A))
